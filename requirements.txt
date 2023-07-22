@@ -2,6 +2,6 @@ numpy
 pandas 
 streamlit
 nltk
-pickle
+pickle==22.0.3
 string
 re
