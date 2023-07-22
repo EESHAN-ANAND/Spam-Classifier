@@ -7,6 +7,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 nltk.download('punkt')
+nltk.download('stopwords')
 ps = PorterStemmer()
 
 st.title('Spam detector classifier')
