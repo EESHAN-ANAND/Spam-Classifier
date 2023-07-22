@@ -1,11 +1,12 @@
 import streamlit as st
 import pickle
-# import nltk
+import nltk
 import re
 import string
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+nltk.download('punkt')
 ps = PorterStemmer()
 
 st.title('Spam detector classifier')
